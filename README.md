@@ -2,7 +2,7 @@
 # 一、项目介绍 
 深度学习在ctr预估中的应用，使用tensorflow estimator进行封装，包括dnn、deepfm、din、autoint等模型
 
-该项目针对单目标任务，这里给出多目标工程链接：
+该项目针对单目标任务，这里给出多目标工程链接：https://github.com/R-Stalker/deep_learning_estimator_labels
 
 # 二、代码目录
 
