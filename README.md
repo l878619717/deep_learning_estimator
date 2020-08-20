@@ -1,3 +1,4 @@
+此版本停止维护，建议使用最新版本（有测试数据）： https://github.com/R-Stalker/RSDeepModel
 
 # 一、项目介绍 
 深度学习在ctr预估中的应用，使用tensorflow estimator进行封装，包括dnn、deepfm、din、autoint等模型
