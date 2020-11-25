@@ -16,7 +16,7 @@ import utils.model_op as op
 from models.rnn import dynamic_rnn
 
 
-def model_fn(labels, features, mode, params):
+def model_fn(features, labels, mode, params):
     tf.set_random_seed(2019)
 
     cont_feats = features["cont_feats"]

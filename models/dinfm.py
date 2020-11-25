@@ -20,7 +20,7 @@ def get_attention_size(params):
     return attention_field_size
 
 
-def model_fn(labels, features, mode, params):
+def model_fn(features, labels, mode, params):
     use_deep = True
     use_fm = True
     tf.set_random_seed(2019)

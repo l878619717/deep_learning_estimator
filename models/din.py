@@ -7,7 +7,7 @@ import utils.model_layer as my_layer
 import utils.model_op as op
 
 
-def model_fn(labels, features, mode, params):
+def model_fn(features, labels, mode, params):
     tf.set_random_seed(2019)
 
     cont_feats = features["cont_feats"]
